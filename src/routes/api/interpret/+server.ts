@@ -1,5 +1,8 @@
 // src/routes/api/interpret/+server.ts
+// ✅ import json as a value, RequestHandler as a type
+import { json } from '@sveltejs/kit';
 import type { RequestHandler } from '@sveltejs/kit';
+// ✅ import OPENAI_API_KEY from environment variables
 import { OPENAI_API_KEY } from '$env/static/private';
 import { Configuration, OpenAIApi } from 'openai';
 

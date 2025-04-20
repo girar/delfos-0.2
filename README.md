@@ -25,7 +25,7 @@ Drag‑preview utilities: createCustomPreview, updateCustomPreviewPosition, remo
 Assets:
 Card back image + dynamic import of face images via import.meta.glob()
 Server‑Side API:
-src/routes/api/interpret/+server.ts — POST endpoint to gpt-3.5-turbo via OpenAI Node SDK
+src/routes/api/interpret/+server.ts — POST endpoint to gpt-3.5-turbo via OpenAI Node SDK /pnpm add openai@^3.2.1
 System prompt steers the “ancient Tarot Oracle” persona
 Build & Deployment:
 Adapter‑auto (defaults to static or serverless as needed)
@@ -93,4 +93,4 @@ Create a feature branch:
 Commit your changes and push:
 Open a Pull Request. We follow conventional commits and semantic versioning.
 📝 License
-Pending
+MIT License - Copyright (c) 2025 Richard Huelsenbeck
